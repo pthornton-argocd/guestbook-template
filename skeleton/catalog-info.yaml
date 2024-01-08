@@ -5,6 +5,10 @@ metadata:
   {%- if values.description %}
   description: ${{values.description | dump}}
   {%- endif %}
+  links:
+    - url: https://localhost:8080/applications/argocd/${{values.destination.repo}}
+      title: ArgoCD Dashboard
+      icon: dashboard
   annotations:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
     backstage.io/techdocs-ref: dir:.
