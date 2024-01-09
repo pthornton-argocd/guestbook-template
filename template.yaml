@@ -65,6 +65,7 @@ spec:
           - github.com
         description: This is ${{ parameters.name }}
         repoUrl: ${{ parameters.repoUrl }}
+        topic: [argocd-dev]
 
     - id: register
       name: Register
