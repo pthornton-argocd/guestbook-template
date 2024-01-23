@@ -6,6 +6,7 @@ metadata:
   description: Create a new hello world project
   tags:
     - argocd
+    - .NET 8
 spec:
   owner: user:guest
   type: website
