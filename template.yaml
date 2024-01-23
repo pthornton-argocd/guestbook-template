@@ -2,8 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: create-guestbook-template
-  title: Create Guestbook Template
-  description: Create a new guestbook website project
+  title: Create FA .NET 8 Application
+  description: Create a new hello world project
   tags:
     - argocd
 spec:
